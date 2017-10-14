@@ -27,7 +27,7 @@
         "../src/assets/js/easing.js",
         "../src/assets/js/functions.js",
         "../src/assets/js/responsiveslides.min.js",
-        "../src/assets/js/lightbox.js",
+        "../src/assets/js/lightbox.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
