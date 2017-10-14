@@ -24,7 +24,6 @@
       "scripts": [
         "../src/assets/js/jquery-2.1.4.min.js",
         "../src/assets/js/bootstrap.min.js",
-        "../src/assets/js/move-top.js",
         "../src/assets/js/easing.js",
         "../src/assets/js/functions.js",
         "../src/assets/js/responsiveslides.min.js"

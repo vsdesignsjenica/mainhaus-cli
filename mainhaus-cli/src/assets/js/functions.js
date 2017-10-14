@@ -4,6 +4,15 @@ jQuery(function($) {
 		$('#mycarousel').carousel({ interval: 2000, cycle: true });
 	});
 
+	$(window).scroll(function(){
+		if ($(this).scrollTop() > 100) {
+			$('.scroll').fadeIn();
+			} else {
+				$('.scroll').fadeOut();
+			}
+		});
+
+
 	$(function () {
 		$("#slider").responsiveSlides({
 		  auto: true,
@@ -14,7 +23,7 @@ jQuery(function($) {
 	  });
 
 
-	  $(function () {
+	  $(window).scroll(function () {
 		// Slideshow 4
 		$("#slider4").responsiveSlides({
 		  auto: true,
