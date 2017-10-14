@@ -55,8 +55,9 @@ ul#cl-effect-5 {
     margin-top: 16px;
 }
 ul.cl-effect-5>li>a {
+    cursor: pointer;
 	overflow: hidden;
-	padding: 0px 25px;
+	padding: 0px 20px;
 }
 ul.cl-effect-5 a span {
 	position: relative;
