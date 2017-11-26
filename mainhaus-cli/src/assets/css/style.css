@@ -150,10 +150,9 @@ section.best-quality {
     text-align: center;
     padding: 1.8em 0em;
 }
-section.best-quality p {
-    font-size: 17px;
+section.best-quality h1 {
     color: #fff;
-    font-family: 'Raleway';
+    font-family: 'Hind Vadodara';
     font-weight: 300;
 }
 .btn-quality {
@@ -176,6 +175,7 @@ section.best-quality p {
 .work-grid-text {
     text-align: left;
     padding: 30px;
+    padding-bottom: 0px;
 }
 .work-grid-text ul{
     list-style-type: none;
@@ -866,6 +866,7 @@ img.example-image {
 }
 .grid-gallery{
     padding: 0em 0em 6em;
+    border-bottom: solid 1px black;
 }
 /*--gallery-ends--*/
 .contact{
