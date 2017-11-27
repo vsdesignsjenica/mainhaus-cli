@@ -866,7 +866,6 @@ img.example-image {
 }
 .grid-gallery{
     padding: 0em 0em 6em;
-    border-bottom: solid 1px black;
 }
 /*--gallery-ends--*/
 .contact{
@@ -993,6 +992,23 @@ h2.hd{
 video {
     padding-top: 10px;
 }
+
+
+@media only screen and (min-width: 1024px){
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .aa img{
+    position: absolute;
+    height: 100%;
+}
+}
+
+
+
 
 /*--responsive-starts-here--*/
 @media only screen and (max-width: 1024px){
