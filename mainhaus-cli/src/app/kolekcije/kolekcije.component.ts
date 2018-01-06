@@ -12,4 +12,8 @@ export class KolekcijeComponent implements OnInit {
   ngOnInit() {
   }
 
+  scrollUp(){
+    window.scrollTo({ left: 0, top: 0, behavior: 'smooth' });
+  }
+
 }

@@ -28,7 +28,7 @@ body{
     border: none;
     padding: 0.6em 0;
     border-radius: 0;
-    background-color: #fff;
+    background-color: black;
 }
 .nav-min-wid{
     width: 20%;
@@ -57,14 +57,16 @@ ul#cl-effect-5 {
 ul.cl-effect-5>li>a {
     cursor: pointer;
 	overflow: hidden;
-	padding: 0px 20px;
+    padding: 0px 20px;
+    
 }
 ul.cl-effect-5 a span {
 	position: relative;
 	display: inline-block;
 	-webkit-transition: -webkit-transform 0.3s;
 	-moz-transition: -moz-transform 0.3s;
-	transition: transform 0.3s;
+    transition: transform 0.3s;
+    color: #C7AB84;
 }
 
 ul.cl-effect-5>li>a span::before {
@@ -278,6 +280,10 @@ img.latest-img {
     padding: 22px;
     display: none;
 }
+
+.latest-text a:hover{
+    text-decoration: none;
+}
 .border-line {
     border: 3px solid #915D24;
     width: 100%;
@@ -358,6 +364,7 @@ img.latest-img {
     font-weight: 300;
     line-height: 1.9em;
 }
+
 a.morebtn{
 	background:#3D3D3D;
 	padding:0.8em 0;
@@ -1249,12 +1256,12 @@ video {
 }
 @media only screen and (max-width: 667px){
     .navbar-brand {
-        padding: 12px 0px 0px 25px;
+        padding: 2px 0px 0px 25px;
     }
 }
 @media only screen and (max-width: 736px){
     .navbar-brand {
-        padding: 12px 0px 0px 25px;
+        padding: 2px 0px 0px 25px;
     }
 }
 @media only screen and (max-width: 480px){
@@ -1415,8 +1422,9 @@ video {
         line-height: 1.5em;
     }
     .navbar-brand {
-        padding: 12px 0px 0px 0px;
+        padding: 2px 0px 0px 0px;
     }
+
 }
 @media only screen and (max-width: 320px){
     .carousel-caption {
